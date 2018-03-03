@@ -8,7 +8,8 @@ import java.util.Scanner;
 
 /**
  * Есть два файла с отсортированными последовательностями чисел
- *
+ * Необходимо слить числа из обоих файлов в третий так, чтобы
+ * числа тоже были отсортированы
  */
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
@@ -33,6 +34,7 @@ public class Main {
             pw.println(a2);
         }
         //todo пока в file2 есть числа, выводить их в output
+        //todo пока в file1 есть числа, выводить их в output
         pw.close();
     }
 }
